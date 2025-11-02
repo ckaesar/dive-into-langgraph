@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.langgraph_api
+.ipynb_checkpoints
+
+.env
+
+__pycache__
+static
+archived
+
+*.log
+*.db

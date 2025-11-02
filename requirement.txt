@@ -1,0 +1,7 @@
+pydantic
+python-dotenv
+langchain[openai]
+langgraph
+langgraph-cli[inmem]
+langgraph-supervisor
+langgraph-checkpoint-sqlite
