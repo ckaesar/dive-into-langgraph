@@ -1,7 +1,11 @@
 pydantic
 python-dotenv
 langchain[openai]
+langchain-mcp-adapters
 langgraph
 langgraph-cli[inmem]
 langgraph-supervisor
 langgraph-checkpoint-sqlite
+ipynbname
+fastmcp
+supervisord
