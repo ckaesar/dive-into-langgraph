@@ -20,6 +20,8 @@ jobs:
           python-version: "3.11"
       - run: pip install -U pip jupyter-book
       - run: jupyter-book build --html
+        env:
+          BASE_URL: /langgraph-tutorial/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _build/html
