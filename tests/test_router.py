@@ -35,7 +35,7 @@ def run_tool_agent(state: MessagesState):
 # 3) 路由节点：简单规则判断是否需要走工具
 def route(state: MessagesState):
     text = state["messages"][-1].content.lower()
-    if re.search(r"天气|weather|气温|温度|sf|city", text):
+    if re.search(r"天气|weather|气温|温度|城市|city", text):
         return "tool"
     return "chat"
 

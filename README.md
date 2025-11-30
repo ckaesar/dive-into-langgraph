@@ -7,7 +7,7 @@ EN | [中文](/docs/README-zh.md)
 ## 1. Install Dependencies
 
 ```bash
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
 
 <details>
@@ -37,7 +37,7 @@ pip -r requirements.txt
 
 Main Tutorial:
 
-|||
+| # | Chapter |
 | -- | -- |
 | 1 | [Quickstart](./1.quickstart.ipynb) |
 | 2 | [StateGraph](./2.stategraph.ipynb) |
@@ -62,7 +62,7 @@ Additional key implementations not covered in the tutorial:
 
 ## 3. LangGraph CLI
 
-Start the local development interface provided by LangGraph CLI:
+Start the local development interface provided by `langgraph-cli`:
 
 ```
 langgraph dev

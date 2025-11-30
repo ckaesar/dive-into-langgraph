@@ -2,12 +2,12 @@
 
 [EN](/README.md) | 中文
 
-[LangGraph](https://github.com/langchain-ai/langgraph) 是由 [LangChain](https://github.com/langchain-ai) 团队开发的 Agent 开源框架。
+[LangGraph](https://github.com/langchain-ai/langgraph) 是由 [LangChain](https://github.com/langchain-ai) 团队开发的开源智能体框架。
 
 ## 一、安装依赖
 
 ```bash
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
 
 <details>
@@ -56,7 +56,7 @@ pip -r requirements.txt
 |代码|说明|
 | -- | -- |
 | [/tests/test_rag.py](../tests/test_rag.py) | 使用 `RAG` 将本地文档片段注入智能体 |
-| [/tests/test_langmem.py](../tests/test_langmem.py) | 使用 `LangMeM` 管理智能体长期记忆 |
+| [/tests/test_langmem.py](../tests/test_langmem.py) | 使用 `LangMem` 管理智能体长期记忆 |
 | [/tests/test_store.py](../tests/test_store.py) | 使用 `RedisStore` 快速读写长期记忆 |
 | [/tests/test_router.py](../tests/test_router.py) | 实现一个简单的智能体路由 |
 
