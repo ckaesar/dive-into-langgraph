@@ -1,9 +1,9 @@
-<div style="text-align: center;">
+<div align="center">
     <img src="./img/cute.png" width="100%">
     <h1>Dive into LangGraph</h1>
 </div>
 
-<div style="text-align: center;">
+<div align="center">
   <img src="https://img.shields.io/github/stars/luochang212/dive-into-langgraph?style=flat&logo=github" alt="GitHub stars"/>
   <img src="https://img.shields.io/github/forks/luochang212/dive-into-langgraph?style=flat&logo=github" alt="GitHub forks"/>
   <img src="https://img.shields.io/badge/language-Chinese-brightgreen?style=flat" alt="Language"/>
@@ -11,13 +11,13 @@
   <a href="https://github.com/luochang212/langgraph-tutorial/actions/workflows/deploy-book.yml"><img src="https://github.com/luochang212/langgraph-tutorial/actions/workflows/deploy-book.yml/badge.svg?branch=main" alt="deploy-book"/></a>
 </div>
 
-<div style="text-align: center;">
+<div align="center">
 
 中文 | [English](./docs/README-en.md)
 
 </div>
 
-<div style="text-align: center;">
+<div align="center">
   <p><a href="https://luochang212.github.io/dive-into-langgraph/">📚 在线阅读地址</a></p>
   <h3>📖 LangGraph 1.0 完全指南</h3>
   <p><em>从零开始，动手实现强大的智能体</em></p>
