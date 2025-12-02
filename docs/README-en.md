@@ -29,7 +29,7 @@
 
 > In mid-October 2025, LangGraph released version 1.0. The team announced this as a stable release and expects the interfaces not to change significantly, so now is a great time to learn it.
 
-[LangGraph](https://github.com/langchain-ai/langgraph) is an open-source agent framework developed by the LangChain team. It’s powerful — memory, MCP, guardrails, state management, and multi-agent capabilities are all built in. LangGraph is typically used together with [LangChain](https://github.com/langchain-ai/langchain): LangChain provides the building blocks and tools, while LangGraph focuses on workflow orchestration and state management. To help you ramp up quickly, I’ve extracted the most important features from both libraries and organized them into 11 chapters.
+This is an open-source ebook project designed to help Agent developers quickly master the LangGraph framework. [LangGraph](https://github.com/langchain-ai/langgraph) is an open-source agent framework developed by the LangChain team. It's powerful — memory, MCP, guardrails, state management, and multi-agent capabilities are all built in. LangGraph is typically used together with [LangChain](https://github.com/langchain-ai/langchain): LangChain provides the building blocks and tools, while LangGraph focuses on workflow orchestration and state management. Therefore, both libraries need to be learned. To help you ramp up quickly, this tutorial extracts the most important features from both libraries and organizes them into 11 chapters.
 
 ## 2. Installation
 
@@ -89,7 +89,7 @@ Important examples not covered above are placed under the repository’s `tests`
 
 > [!NOTE]
 >
-> Commitment: This tutorial is written entirely against LangGraph v1.0, with no residual content from v0.6.
+> **Commitment**: This tutorial is written entirely against LangGraph v1.0, with no residual content from v0.6.
 
 ## 4. Debug UI
 
