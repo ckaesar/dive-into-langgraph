@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./img/cute.png" width="100%">
+    <img src="./img/social-preview.jpg" width="100%">
     <h1>Dive into LangGraph</h1>
 </div>
 
@@ -64,19 +64,19 @@ pip install -r requirements.txt
 
 本教程的内容速览：
 
-|序号|章节|
-| -- | -- |
-| 1 | [快速入门](./1.quickstart.ipynb) |
-| 2 | [状态图](./2.stategraph.ipynb) |
-| 3 | [中间件](./3.middleware.ipynb) |
-| 4 | [人机交互](./4.human_in_the_loop.ipynb) |
-| 5 | [记忆](./5.memory.ipynb) |
-| 6 | [上下文工程](./6.context.ipynb) |
-| 7 | [MCP Server](./7.mcp_server.ipynb) |
-| 8 | [监督者模式](./8.supervisor.ipynb) |
-| 9 | [并行](./9.parallel.ipynb) |
-| 10 | [Deep Agents](./10.deep_agents.ipynb) |
-| 11 | [调试界面](./11.langgraph_cli.ipynb) |
+| 序号 | 章节 | 主要内容 |
+| -- | -- | -- |
+| 1 | [快速入门](./1.quickstart.ipynb) | 创建你的第一个 ReAct Agent |
+| 2 | [状态图](./2.stategraph.ipynb) | 使用 StateGraph 创建工作流 |
+| 3 | [中间件](./3.middleware.ipynb) | 使用自定义中间件实现四个功能：预算控制、消息截断、敏感词过滤、PII 检测 |
+| 4 | [人机交互](./4.human_in_the_loop.ipynb) | 使用内置的 HITL 中间件实现人机交互 |
+| 5 | [记忆](./5.memory.ipynb) | 介绍如何创建短期记忆、长期记忆 |
+| 6 | [上下文工程](./6.context.ipynb) | 使用 State、Store、Runtime 管理上下文 |
+| 7 | [MCP Server](./7.mcp_server.ipynb) | 如何创建 MCP Server 并接入 LangGraph |
+| 8 | [监督者模式](./8.supervisor.ipynb) | 两种方法实现监督者模式：tool-calling、langgraph-supervisor |
+| 9 | [并行](./9.parallel.ipynb) | 如何实现多节点并行 |
+| 10 | [Deep Agents](./10.deep_agents.ipynb) | 简单介绍 Deep Agents |
+| 11 | [调试页面](./11.langgraph_cli.ipynb) | 介绍 langgraph-cli 提供的调试页面 |
 
 未出现在上述章节但比较重要的代码，我放在仓库的 tests 目录下：
 
@@ -91,9 +91,9 @@ pip install -r requirements.txt
 > 
 > 承诺：本教程完全基于 LangGraph v1.0 编写，不含任何 v0.6 的历史残留。
 
-## 四、调试界面
+## 四、调试页面
 
-`langgraph-cli` 提供了一个可快速启动的调试界面。
+`langgraph-cli` 提供了一个可快速启动的调试页面。
 
 ```bash
 langgraph dev

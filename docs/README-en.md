@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="../img/cute.png" width="100%">
+    <img src="../img/social-preview.jpg" width="100%">
     <h1>Dive into LangGraph</h1>
 </div>
 
@@ -64,19 +64,19 @@ pip install -r requirements.txt
 
 Quick overview of the tutorial:
 
-| # | Chapter |
-| -- | -- |
-| 1 | [Quickstart](../1.quickstart.ipynb) |
-| 2 | [State Graph](../2.stategraph.ipynb) |
-| 3 | [Middleware](../3.middleware.ipynb) |
-| 4 | [Human-in-the-Loop](../4.human_in_the_loop.ipynb) |
-| 5 | [Memory](../5.memory.ipynb) |
-| 6 | [Context Engineering](../6.context.ipynb) |
-| 7 | [MCP Server](../7.mcp_server.ipynb) |
-| 8 | [Supervisor Pattern](../8.supervisor.ipynb) |
-| 9 | [Parallelism](../9.parallel.ipynb) |
-| 10 | [Deep Agents](../10.deep_agents.ipynb) |
-| 11 | [Debug UI](../11.langgraph_cli.ipynb) |
+| # | Chapter | Main Content |
+| -- | -- | -- |
+| 1 | [Quickstart](../1.quickstart.ipynb) | Create your first ReAct Agent |
+| 2 | [State Graph](../2.stategraph.ipynb) | Create workflows using StateGraph |
+| 3 | [Middleware](../3.middleware.ipynb) | Implement four features with custom middleware: budget control, message truncation, sensitive word filtering, PII detection |
+| 4 | [Human-in-the-Loop](../4.human_in_the_loop.ipynb) | Implement human-in-the-loop using built-in HITL middleware |
+| 5 | [Memory](../5.memory.ipynb) | Learn how to create short-term and long-term memory |
+| 6 | [Context Engineering](../6.context.ipynb) | Manage context using State, Store, Runtime |
+| 7 | [MCP Server](../7.mcp_server.ipynb) | How to create MCP Server and integrate with LangGraph |
+| 8 | [Supervisor Pattern](../8.supervisor.ipynb) | Two methods to implement supervisor pattern: tool-calling, langgraph-supervisor |
+| 9 | [Parallelism](../9.parallel.ipynb) | How to implement multi-node parallelism |
+| 10 | [Deep Agents](../10.deep_agents.ipynb) | Brief introduction to Deep Agents |
+| 11 | [Debug UI](../11.langgraph_cli.ipynb) | Introduction to the debug UI provided by langgraph-cli |
 
 Important examples not covered above are placed under the repository’s `tests` directory:
 
