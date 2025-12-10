@@ -5,6 +5,6 @@ repository:
   path_to_book: .
 sphinx:
   config:
-    html_baseurl: https://luochang212.github.io/dive-into-langgraph/
+    html_baseurl: https://www.luochang.ink/dive-into-langgraph/
 execute:
   execute_notebooks: "off"
