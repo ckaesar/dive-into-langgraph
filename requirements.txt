@@ -12,3 +12,5 @@ langmem
 ipynbname
 fastmcp
 bs4
+deepagents
+ddgs
