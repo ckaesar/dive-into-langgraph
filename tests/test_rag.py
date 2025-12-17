@@ -66,11 +66,15 @@ class DashScopeEmbeddings(Embeddings):
 embeddings = DashScopeEmbeddings()
 vector_store = InMemoryVectorStore(embedding=embeddings)
 
-# Only keep post title, headers, and content from the full HTML.
-bs4_strainer = bs4.SoupStrainer(class_=("post-title", "post-header", "post-content"))
+bs4_strainer = bs4.SoupStrainer(class_=("post"))
 loader = WebBaseLoader(
     web_paths=("https://luochang212.github.io/posts/quick_bi_intro/",),
     bs_kwargs={"parse_only": bs4_strainer},
+    requests_kwargs={
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+        }
+    },
 )
 docs = loader.load()
 
